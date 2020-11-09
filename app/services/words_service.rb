@@ -11,7 +11,6 @@ class WordsService
   end
 
   def self.get_gradient
-
       angle = rand(-90..90)
       colors = ["#0E9F1C", "#703EC1"]
       colors_opacity_1 = rand(50..99)
